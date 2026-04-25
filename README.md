@@ -32,9 +32,9 @@ Answer
 
 ## Why Reranking
 
-FAISS retrieves by geometric proximity in embedding space — it finds chunks that are topically related to the query. The Cohere reranker applies reading comprehension on top of that: it scores whether each candidate chunk actually answers the specific question asked.
+FAISS retrieves by geometric proximity in embedding space. It finds chunks that are topically related to the query. The Cohere reranker applies reading comprehension on top of that: it scores whether each candidate chunk actually answers the specific question asked.
 
-For a single structured document like a 10-K, the difference between the two pipelines is small — SEC filings have low semantic overlap between sections and formal consistent language that embeds cleanly. The reranker shows meaningful improvement in multi-document settings where competing chunks from different contexts create retrieval ambiguity that vector similarity alone cannot resolve.
+For a single structured document like a 10-K, the difference between the two pipelines is small; SEC filings have low semantic overlap between sections and formal consistent language that embeds cleanly. The reranker shows meaningful improvement in multi-document settings where competing chunks from different contexts create retrieval ambiguity that vector similarity alone cannot resolve.
 
 Both pipelines run side by side in the notebook so the tradeoff is visible directly.
 
