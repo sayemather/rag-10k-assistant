@@ -58,4 +58,4 @@ Both pipelines run side by side in the notebook so the tradeoff is visible direc
 
 ## Credentials
 
-API keys are loaded from Google Colab secrets — never hardcoded. To run locally, set `OPENAI_API_KEY` and `COHERE_API_KEY` as environment variables.
+API keys are loaded from Google Colab secrets (never hardcoded). To run locally, set `OPENAI_API_KEY` and `COHERE_API_KEY` as environment variables.
