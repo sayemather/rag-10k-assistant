@@ -7,7 +7,7 @@ A retrieval-augmented generation system built from scratch for querying Apple's 
 ```
 SEC 10-K Filing
       ↓
-Sentence-aware chunking (~1000 chars)
+Sentence-aware chunking (~500 chars)
       ↓
 OpenAI Embeddings (text-embedding-3-small, 1536 dims)
       ↓
